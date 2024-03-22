@@ -1,7 +1,6 @@
 import React from 'react';
 import './App.css';
-import drop from './drop';
-import Dropzone from 'react-dropzone';
+// import Dropzone from 'react-dropzone';
 function App() {
   return (
     <div>
@@ -35,20 +34,18 @@ function App() {
           </ul>
         </div>
       </nav>
-      <main>
-        <div className="name">
-          <p> X<sub>FID</sub></p>
-        </div>
-        <div className="subtitle">
-          <p> An innovative, XRP-based approach to recognizing fraud in the foreign exchange market</p>
-        </div>
+      <div className="name">
+        <p> X<sub>FID</sub></p>
+      </div>
+      <div className="subtitle">
+        <p> An innovative, XRP-based approach to recognizing fraud in the foreign exchange market</p>
+      </div>
 
 
 
-        <div>
+      {/* <div>
           <Dropzone className='zone' />
-        </div>
-      </main>
+        </div> */}
     </div>
 
 
